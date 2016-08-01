@@ -1,0 +1,1059 @@
+$mainFont:Tahoma, sans-serif;
+$mainUpper: uppercase;
+//info bashlangici
+#info{
+background-color: #e5eef0;
+height: 50px;
+width: 100%;
+.row{
+p{
+color:#93a1a7;
+font-size: 13px;
+padding: 15px 0 22px;
+text-transform: $mainUpper;
+margin-left: 20px;
+font-family: $mainFont;
+}
+ul{
+margin-top: -70px;
+margin-right: 47px;
+li{
+list-style: none;
+display: inline-block;
+margin-right: 60px;
+padding: 20px 0 20px 0;
+border-radius: 1px solid #d8e3e6;
+}
+}
+a{
+color:#93a1a7;
+font-size: 14px;
+text-transform: $mainUpper;
+font-family: $mainFont;
+}
+i{
+font-size: 20px;
+}
+}
+}
+//info sonu
+//menunun bashlangici
+#menu{
+height: 76px;
+.row{
+img{
+margin-bottom: -23px;
+margin-left: 7px;
+}
+ul{
+margin-top: 10px;
+margin-left: 101px;
+li{
+display: inline-block;
+list-style: none;
+//margin-right: 38px;
+a{
+color: #93a1a7;
+text-decoration: none;
+font-size: 14.5px;
+font-family: $mainFont;
+padding: 13px 20px;
+}
+}
+li:hover{
+background-color: #29c2e1;
+border:1px;
+border-radius: 50px;
+// height: 38px;
+text:center;
+// line-height: 38px;
+a{
+color:white;
+}
+}
+}
+}
+}
+//menunun sonu
+// header basglangici
+#header{
+background-color: #8d8d8d;
+height: 750px;
+h3{
+color: white;
+font-size: 48px;
+padding-top: 313px;
+font-family: $mainFont;
+text-transform: $mainUpper;
+}
+p{
+font-size: 14px;
+color: white;
+text-transform: $mainUpper;
+}
+.rowReset{
+margin-left: 0px;
+margin-right: 0px;
+}
+}
+//headerin sonu
+//startupun bashlangici
+#startup{
+height: 656px;
+.row{
+h4{
+font-size: 30px;
+color:#23282f;
+font-family: $mainFont;
+margin-top: 94px;
+margin-bottom: 1px;
+text-transform: $mainUpper;
+}
+p{
+font-size: 18px;
+color: #23282f;
+font-family: $mainFont;
+text-transform: $mainUpper;
+}
+span{
+font-size: 14px;
+font-family: $mainFont;
+color: #55595f;
+margin-bottom: 10px;
+}
+.empty{
+background-color: #8d8d8d;
+width: 585px;
+height: 301px;
+margin-top: 63px;
+}
+.zibilHeight{
+margin-top: 85px;
+}
+.rowB{
+margin-bottom: 47px;
+}
+h5{
+font-size: 20px;
+font-family: $mainFont;
+color: #23282f;
+}
+}
+.classP{
+font-size:14px;
+color:#55595f;
+font-family: $mainFont;
+}
+.starI{
+width: 67px;
+height: 67px;
+background-color: #e5eef0;
+margin-top: 15px;
+i{
+font-size: 38px;
+padding-top: 14px;
+}
+}
+.starI:hover{
+background-color: #f7941d;
+}
+.startservices{
+background-color: #29c2e1;
+border-radius: 50px;
+height: 38px;
+width: 171px;
+margin-left: 105px;
+a{
+color:#e2f7fb;
+font-size: 15px;
+font-family: $mainFont;
+text-transform: $mainUpper;
+}
+}
+}
+//startupun sonu
+//clientsin bashlangici
+#clients{
+height: 467px;
+background-color: #e5eef0;
+.row{
+margin-top: 86px;
+h5{
+font-size: 30px;
+text-transform: $mainUpper;
+color: #23282f;
+margin-bottom: 10px;
+}
+p{
+font-size: 18px;
+text-transform: $mainUpper;
+color: #23282f;
+}
+i{
+font-size: 60px;
+margin-top:-36px;
+}
+span{
+font-size: 15px;
+color:#55595f;
+a{
+color:#f5a24c;
+}
+}
+.clientsSpan{
+padding-left: 63px;
+margin-top: -54px;
+}
+}
+.row{
+img{
+border-radius: 100%;
+background-color: #8d8d8d;
+height: 132px;
+width: 132px;
+margin-right: 13px;
+margin-top: 20px;
+margin-left: 14px;
+}
+img:hover{
+background-color: #f7941d;
+}
+}
+}
+//clientin sonu
+//featuresin bashlangici
+#features{
+height: 664px;
+border-bottom: 1px solid #e5eef0;
+
+.row{
+h5{
+font-size: 30px;
+color: #23282f;
+font-family: $mainFont;
+text-transform: $mainUpper;
+padding-top: 100px;
+}
+p{
+font-size: 18px;
+font-family: $mainFont;
+text-transform: $mainUpper;
+color: #23282f;
+}
+}
+.row{
+h6{
+font-size: 16px;
+margin-top: 0px;
+}
+span{
+//font-size: 10px;
+font-family: $mainFont;
+}
+.featuresLogo{
+background-color: #e5eef0;
+width: 68px;
+height: 68px;
+float:left;
+margin-right: 8px;
+margin-bottom: 64px;
+i{
+font-size: 35px;
+color:black;
+padding-top: 19px;
+}
+}
+.featuresLogo:hover{
+background-color: #f7941d;
+}
+i:hover{
+color:white;
+}
+button{
+margin-left: 92px;
+margin-top: 68px;
+}
+.btn{
+width: 161px;
+height: 38px;
+border-radius: 50px;
+}
+a{
+color:white;
+text-decoration: none;
+font-size: 9px;
+text-transform: $mainUpper;
+padding-top: 14px;
+}
+}
+}
+//featuresin sonu
+
+
+
+
+
+//pricingin bashlangici
+#pricing{
+	height: 712px;
+	
+	h5{
+		color:#23282f;
+		font-family: $mainFont;
+		text-transform: $mainUpper;
+		margin-top: 100px;
+		font-size: 30px;
+	}
+	p{
+		font-family: $mainFont;
+		text-transform: $mainUpper;
+		font-size: 18px;
+	}
+	.row{
+		.recommend{
+			width: 261px;
+			height: 422px;
+			border:1px solid #e6edee;
+			margin-top: 44px;
+			h6{
+				font-size: 20px;
+				font-family: $mainFont;
+				text-transform: $mainUpper;
+				color:#23282f;
+				margin-top: 37px;
+				padding-bottom: 14px;
+				border-bottom: 1px solid #e6edee;
+			}
+			.recommendCenter{
+				font-size: 18px;
+				color:#65686e;
+				font-family: $mainFont;
+				padding-top:0px;
+				padding-bottom: 15px;
+				border-bottom: 1px solid #e6edee;
+			}
+			.price{
+				color:#f7941d;
+			}
+			.business{
+				font-size: 15px;
+				font-family: $mainFont;
+				color: #55595f;
+				//margin-top: 40px;
+				//margin-bottom: 100px;
+			}
+			button{
+				margin-left: 10px;
+				margin-top: 80px;
+				}
+				.btn{
+				width: 161px;
+				height: 38px;
+				border-radius: 50px;
+				}
+				a{
+				color:white;
+				text-decoration: none;
+				font-size: 9px;
+				text-transform: $mainUpper;
+				padding-top: 14px;
+				}
+		}
+		.recommend:hover{
+			box-shadow: 0px 0px 50px #eceff2;
+		}
+	}
+}
+//pricingin sonu
+
+//teamin bashlangici
+#team{
+	background-color: #e5eef0;
+	height: 662px;
+	.row{
+		h4{
+			font-size: 30px;
+			font-family: $mainFont;
+			text-transform: $mainUpper;
+			color:#23282f;
+			margin-top: 100px;
+			margin-bottom: 0px;
+		}
+		p{
+			font-size: 18px;
+			font-family: $mainFont;
+			text-transform: $mainUpper;
+			color: #23282f;
+			margin-top: 11px;
+			margin-bottom: 39px;
+		}
+	}
+	.row{
+		.thumbnail{
+			width: 263px;
+			height: 398px;
+			padding: 0px;
+			img{
+				width: 263px;
+				height: 276px;
+				background-color: #8d8d8d;
+			}
+			.caption{
+				h3{
+					font-size: 18px;
+					font-family: $mainFont;
+					text-transform: $mainUpper;
+					color: #23282f;
+					margin-top: 28px;
+					margin-bottom: 0px;
+				}
+				span{
+					color:#f69b37;
+					font-size: 14px;
+					font-family: $mainFont;
+					margin-top: 10px;
+					margin-bottom: 17px;
+				}
+				i{
+					color:#adbdc1;
+					font-size: 14px;
+					margin-right: 14px;
+					margin-top: 16px;
+				}
+			}
+		}
+	}
+	.thumbnail:hover{
+		box-shadow: 0px 0px 30px #adbdc1;
+	}
+}
+//teamin sonu
+
+//fotterin bashlangici
+#footer{
+	height: 742px;
+	background: url("../../images/bo.png") no-repeat left 94%, url("../../images/bblue.png") no-repeat right bottom;
+	background-size:300px 200px;
+	.row:nth-child(1){
+		h4{
+			font-family: $mainFont;
+			text-transform: $mainUpper;
+			color: #23282f;
+			font-size: 30px;
+			margin-top: 100px;
+			margin-bottom: 0px;
+		}
+		p{
+			font-size: 13px;
+			font-family: $mainFont;
+			text-transform: $mainUpper;
+			color: #59686c;
+			margin-top: 15px;
+			margin-bottom: 33px;
+		}
+		span{
+			color: #f69b37;
+		}
+	}
+	.row:nth-child(2){
+		border-bottom: 1px solid #e5eef0;
+		padding-bottom: 100px;
+		.button1{
+				margin-right: 20px;
+			}
+			.btn{
+			width: 161px;
+			height: 38px;
+			border-radius: 50px;
+			border:none;
+			}
+			a{
+			color:white;
+			text-decoration: none;
+			font-size: 9px;
+			text-transform: $mainUpper;
+			padding-top: 14.5px;
+			}
+		.button2{
+				background-color: #f69b37 !important;
+			}
+			.btn{
+			width: 161px;
+			height: 38px;
+			border-radius: 50px;
+			}
+			a{
+			color:white;
+			text-decoration: none;
+			font-size: 9px;
+			text-transform: $mainUpper;
+			padding-top: 14.5px;
+			}
+		}
+		.row:nth-child(3){
+			img{
+				margin-top: 77px;
+			}
+			h5{
+				font-size: 18px;
+				font-family: $mainFont;
+				margin-top: 77px;
+			}
+			ul{
+				padding-left: 0px;
+				li{
+					margin-bottom: 25px;
+					list-style: none;
+					a{
+						color: #93a1a7;
+						font-family: $mainFont;
+						font-size: 14px;
+						text-transform: $mainUpper;
+						text-decoration: none;
+					}
+				}
+			}
+			.newsletter{
+				font-size: 14px;
+				color: #93a1a7;
+				text-transform: $mainUpper;
+				font-family: $mainFont;
+			}
+			.goInput{
+				background-color: #29c2e1;
+				border:none;
+				margin-left:-4px;
+			}
+		}
+
+	}
+//fotterin sonu
+
+//aboutus in bashlangici
+#aboutus{
+	height: 310px;
+	background-color: #8d8d8d;
+	.row{
+		h2{
+			color:white;
+			font-family: $mainFont;
+			text-transform: $mainUpper;
+			font-size: 48px;
+			margin-top: 126px;
+			margin-bottom: 0px;
+		}
+		span{
+			font-size: 14px;
+			color: white;
+			font-family: $mainFont;
+			text-transform: $mainUpper;
+			margin-top: 20px;
+		}
+	}
+}
+//aboutusin sonu
+
+//weAre in bashlangici
+#weAre{
+	height: 712px;
+	.row:nth-child(1){
+		h4{
+			font-size: 30px;
+			font-family: $mainFont;
+			text-transform: $mainUpper;
+			margin-top: 100px;
+			margin-bottom: 0px;
+		}
+		p{
+			font-size: 18px;
+			font-family: $mainFont;
+			text-transform: $mainUpper;
+			margin-top: 11px;
+			margin-bottom: 46px;
+		}
+	}
+	.row:nth-child(2){
+		padding-bottom: 100px;
+		border-bottom: 1px solid #dee8ea;
+		span{
+			font-size: 14px;
+			font-family: $mainFont;
+			color:#55595f;
+			margin-left: 0px;
+		}
+	}
+	.weareRow{
+		i{
+			color:#f7941d;
+			font-size: 40px;
+			margin-top: 75px;
+		}
+		h3{
+			font-size: 60px;
+			font-family: $mainFont;
+			margin-top:75px;
+			margin-bottom: 14px;
+			color:#23282f; 
+			margin-left: 0px;
+		}
+		span{
+			color:#23282f;
+			font-size: 14px;
+		}
+	}
+}
+//weArein sonu
+
+
+// serviceheader in bashlangici
+#serviceheader{
+	background: #8d8d8d;
+	height: 310px;
+	h3{
+		font-size: 48px;
+		color: white;
+		text-transform: $mainUpper;
+		font-family: $mainFont;
+		margin-top: 125px;
+		margin-bottom: 20px;
+	}
+	span{
+		color:white;
+		text-transform: $mainUpper;
+		font-family: $mainFont;
+		font-size: 14px;
+
+		}
+}
+//serviceheaderin sonu
+#services{
+	height: 2072px;
+	.row:nth-child(1){
+	h4{
+		font-family: #mainFont;
+		text-transform: $mainUpper;
+		font-size: 30px;
+		margin-top: 100px;
+		margin-bottom: 11px;
+		margin-left: 0px;
+	}
+	p{
+		font-family: $mainFont;
+		text-transform: $mainUpper;
+		font-size: 18px;
+		margin-top: 0px;
+		margin-bottom: 63px;
+		margin-left: 0px;
+	}
+	}
+	.row{
+		h2{
+			text-transform: $mainUpper;
+			font-size: 20px;
+			font-family: $mainFont;
+			color: #3e4146;
+			border-left: 2px solid #29c2e1;
+			margin-top: 0px;
+			margin-bottom: 30px;
+			padding-left: 17px;
+		}
+		span{
+			color:#74777b;
+			font-family: $mainFont;
+			text-transform: $mainUpper;
+		}
+		.button{
+			border-radius: 50px;
+			height: 38px;
+			width: 139px;
+			background-color: #29c2e1;
+			color: white;
+			border:none;
+			margin-top: 40px;
+			margin-bottom: 60px;
+		}
+		.button:hover{
+			background-color: #f7941d;
+		}
+	}
+
+}
+//services bashlangici
+
+//servicesin weare bashlangici
+#servicesWeAre{
+	background-color: #e5eef0;
+	height: 249px;
+		.weareRow{
+		i{
+			color:#f7941d;
+			font-size: 40px;
+			margin-top: 75px;
+		}
+		h3{
+			font-size: 60px;
+			font-family: $mainFont;
+			margin-top:60px;
+			margin-bottom: 14px;
+			color:#23282f; 
+			margin-left: 0px;
+		}
+		span{
+			color:#23282f;
+			font-size: 14px;
+			margin-bottom: 85px;
+			text-transform: $mainUpper;
+
+		}
+	}
+}
+//servicesin weare sonu
+
+//location bashlangici
+#location{
+	min-height: 894px;
+	.row:nth-child(1){
+		h3{
+			font-size: 30px;
+			text-transform: $mainUpper;
+			font-family: $mainFont;
+			margin-left: 15px;
+			margin-top: 100px;
+			margin-bottom: 10px;
+		}
+		span{
+			font-family: $mainFont;
+			text-transform: $mainUpper;
+			font-size: 18px;
+			margin-top: 0px;
+			margin-bottom: 31px;
+			margin-left: 15px;
+		}
+	}
+	.map{
+		background: #8d8d8d;
+		height: 417px;
+	}
+	.rowTwo{
+		border-bottom: 1px solid #dee8ea;
+		padding-bottom: 75px;
+		.iBorder{
+			border-radius: 100%;
+			border: 2px solid #29c2e1;
+			height: 63px;
+			width: 63px;
+			margin-top: 74px;
+			margin-bottom: 24px;
+			margin-left: 140px;
+		i{
+
+			font-size: 25px;
+			margin-top: 19px;
+			text:center;
+			margin-left: 0px;
+		}
+	}
+		span{
+			font-size: 16px;
+			color:#23282f;
+			text-transform: $mainUpper;
+		}
+	}
+}
+//location sonu
+
+//contactFormun bashlangici
+#contactForm{
+	min-height: 575px;
+	.row{
+		h3{
+			text-transform: $mainUpper;
+			font-family: $mainFont;
+			font-size: 25px;
+			margin-top: 77px;
+			margin-bottom: 31px;
+		}
+	}
+	.row{
+		.contactFormInput{
+			width: 561px;
+			height: 47px;
+			background-color: #e3eef0;
+			float: left;
+			color: black;
+			border:none;
+		}
+		.contactComment{
+			width: 1140px;
+			height: 158px;
+			background-color: #e3eef0;
+			color:black;
+			border:none;
+		}
+		.button{
+			border-radius: 50px;
+			height: 38px;
+			width: 139px;
+			background-color: #29c2e1;
+			color: white;
+			border:none;
+			margin-top: 40px;
+			margin-bottom: 60px;
+			text-transform: $mainUpper;
+		}
+		.button:hover{
+			background-color: #f7941d;
+		}
+		.col-md-6{
+			padding-left: 0px;
+		}
+		.col-md-12{
+			margin-bottom: 15px;
+		}
+	}
+}
+//contactFormun sonu
+
+//news un bashlangici
+#news{
+	.row:nth-child(1){
+		h3{
+		text-transform: $mainUpper;
+		font-family: $mainFont;
+		font-size: 30px;
+		margin-top: 100px;
+		margin-bottom: 11px;
+		}
+		span{
+			font-size: 18px;
+			text-transform: $mainUpper;
+			font-family: $mainFont;
+			margin-bottom: 34px;
+		}
+	}
+	.row:nth-child(2){
+		.newsImage{
+			height: 428px;
+			background: #8d8d8d;
+		}
+		.newsHeading{
+			background: #e5eef0;
+			margin-top: -10px;
+			h3{
+				font-size: 47px;
+				margin-top: 60px;
+				margin-bottom: 13px;
+
+			}
+			span:nth-child(1){
+				font-size: 16px;
+				text-transform: $mainUpper;
+				font-family: $mainFont;
+			}
+			h5{
+				font-size: 48px;
+				text-transform: $mainUpper;
+				font-family: $mainFont;
+				margin-bottom: 29px;
+				padding-top:38px;
+			}
+			p{
+				font-size: 14px;
+				font-family: $mainFont;
+				color:#80858a;
+				margin: 0 50px 0 50px;
+			}
+			.button{
+				border-radius: 50px;
+				height: 38px;
+				width: 139px;
+				background-color: #29c2e1;
+				color: white;
+				border:none;
+				margin-top: 40px;
+				margin-bottom: 60px;
+				text-transform: $mainUpper;
+				text:center;
+				margin-left: 15px;
+
+			}
+			.button:hover{
+				background-color: #f7941d;
+			}
+		}
+	}
+
+}
+//news un sonu
+
+//portfolio in bashlangici
+#portfolio{
+	height: 310px;
+	background-color: #8d8d8d;
+	.row{
+		h2{
+			color:white;
+			font-family: $mainFont;
+			text-transform: $mainUpper;
+			font-size: 48px;
+			margin-top: 126px;
+			margin-bottom: 0px;
+		}
+		span{
+			font-size: 14px;
+			color: white;
+			font-family: $mainFont;
+			text-transform: $mainUpper;
+			margin-top: 20px;
+		}
+	}
+}
+//portfolio sonu
+
+//ourProjects bashlangici
+#ourProjects{
+	min-height: 1425px;
+	.row:nth-child(1){
+		h4{
+		font-family: $mainFont;
+		text-transform: $mainUpper;
+		font-size: 30px;
+		margin-top: 100px;
+		margin-bottom: 10px;
+		margin-left: 15px;
+	}
+	span{
+		font-family: $mainFont;
+		text-transform: $mainUpper;
+		font-size: 18px;
+		margin-left: 15px;
+	}
+	}
+	.row:nth-child(2){
+		img{
+			width: 555px;
+			height: 380px;
+			background-color: #8d8d8d;
+			margin-top: 38px;
+			border:10px solid  #8d8d8d;;
+		}
+		img:hover{
+			background: #f4f4f4;
+		}
+	}
+}
+//ourProjects sonu
+
+//blogPage bashlangici
+#blogPage{
+	min-height: 308px;
+	background: #8d8d8d;
+	.row:nth-child(1){
+		h3{
+			text-transform: $mainUpper;
+			font-family: $mainFont;
+			font-size: 48px;
+			color:white;
+			margin-top: 125px;
+			margin-bottom: 20px;
+		}
+		span{
+			font-size: 14px;
+			text-transform: $mainUpper;
+			font-family: $mainFont;
+			color:white;
+		}
+	}
+}
+//blogPage in sonu
+
+//blogHedaingin bashlangici
+#blogHeadind{
+		.row{
+			img{
+				height: 334px;
+				width: 828px;
+				background-color: #8d8d8d;
+				margin-top: 100px;
+			}
+		.row:nth-child(2){
+			margin-left:0px;
+			h4{
+				text-transform: $mainUpper;
+				font-family: $mainFont;
+				font-size: 24px;
+				margin-top: 39px;
+				margin-bottom: 16px;
+			}
+			p{
+				text-transform: $mainUpper;
+				font-family: $mainFont;
+				font-size: 15px;
+				margin-bottom: 47px;
+				float: left;
+				margin-right: 10px;
+				span{
+					color:#f7941d;
+				}
+			}
+		}
+			.row:nth-child(3){
+				border-bottom: 1px solid #818488;
+				p{
+					font-size: 14px;
+					font-family: $mainFont;
+					margin-left: 15px;
+					color:#818488;
+				}
+				.button{
+					border-radius: 50px;
+					height: 38px;
+					width: 139px;
+					background-color: #29c2e1;
+					color: white;
+					border:none;
+					margin-top: 40px;
+					margin-bottom: 60px;
+					text-transform: $mainUpper;
+					margin-left: 15px;
+				}
+				.button:hover{
+					background-color: #f7941d;
+				}
+			}
+			input[type=text]{
+				width: 262px;
+				height: 44px;
+				border:2px solid #dee8ea;
+				//background-image: url(../../images/searchicon.png);
+				padding:5px;
+				margin-top: 100px;
+			}
+			h6{
+				margin-top: 50px;
+				margin-bottom: 30px;
+				font-family: $mainFont;
+				text-transform:$mainUpper;
+				font-size: 20px;
+			}
+			ul{
+				padding-left: 0px;
+				li{
+					list-style: none;
+					margin-bottom: 27px;
+					a{
+						text-transform: $mainUpper;
+						font-family: $mainFont;
+						font-size: 13px;
+						color:#55595f;
+					}
+					a:hover{
+						color: #f7941d;
+						text-decoration: none;
+					}
+				}
+			}
+		
+	}
+}
+//blogHeadinging sonu
